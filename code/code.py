@@ -4,7 +4,7 @@ Uncomment each line beginning in "from" in sequence to work
 towards coding your own motion reactive animations
 '''
 ### Step 0: Welcome to CircuitPython
-#from demos import step0_circuitpython
+from demos import step0_circuitpython
 
 ### Step 1: Accelerometer Data on the XIAO nRF52840 Sense
 #from demos import step1_accelerometer
@@ -22,4 +22,4 @@ towards coding your own motion reactive animations
 #from demos import step5_roll_animation
 
 ### Step 6: The following code controls animations with BlueTooth
-from demos import bluetooth_led_animations
+#from demos import bluetooth_led_animations
