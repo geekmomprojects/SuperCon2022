@@ -23,8 +23,8 @@ class MIC(audiobusio):
         self.samples = array.array('H',[0]*self.nsamples)
 
     # Must call this regularly to collect samples
-    def record_sample():
+    def record_sample(self):
         self.record(self.samples, self.nsamples)
 
-    def get_volume():
+    def get_volume(self):
         return normalized_rms(self.samples)
